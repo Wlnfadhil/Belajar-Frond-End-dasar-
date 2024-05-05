@@ -1,0 +1,21 @@
+1.membuat sebuah bookshell aps dengan kriteria 
+-Bookshelf Apps harus mampu menambahkan data buku baru
+-Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut :
+ ({
+  id: string | number,
+  title: string,
+  author: string,
+  year: number,
+  isComplete: boolean,
+})
+2.Memiliki 2 rak buku 
+ -Bookshelf Apps harus memiliki 2 Rak buku. Yakni, “Belum selesai dibaca” dan “Selesai dibaca”.
+-Rak buku "Belum selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai false.
+-Rak buku "Selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai true
+3.Dapat Memindahkan buku antar rak
+ -Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dipindahkan di antara keduanya.
+4.Menghapus data buku 
+-Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dihapus
+5.Manfaatkan localStorage dalam Menyimpan Data Buku
+-Data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat bertahan walaupun halaman web ditutup.
+-Dengan begitu, Anda harus menyimpan data buku pada localStorage
